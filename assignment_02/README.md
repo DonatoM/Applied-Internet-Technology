@@ -1,5 +1,5 @@
 [Assignment 02 - Basketball]
-(https://github.com/nyu-csci-ua-0480-002-fall-2014/dmc573-homework02-exercises-basketball)
+(http://foureyes.github.io/csci-ua.0480-fall2014-002/assignments.html#hw02)
 
 Overview
 
