@@ -1,0 +1,43 @@
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 08 Oct 2014 01:56:59 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/about
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 08 Oct 2014 01:57:02 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/ABOUT
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 08 Oct 2014 01:57:05 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/about/
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 08 Oct 2014 01:57:09 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/me
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 08 Oct 2014 01:57:16 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/css/base.css
+HTTP/1.1 200 OK
+Content-Type: text/css
+Date: Wed, 08 Oct 2014 01:57:27 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ curl -I localhost:3000/img/image1.png
+HTTP/1.1 200 OK
+Content-Type: image/png
+Date: Wed, 08 Oct 2014 01:57:38 GMT
+Connection: keep-alive
+
+172-26-35-4:dmc573-homework03-http-express Donato$ 

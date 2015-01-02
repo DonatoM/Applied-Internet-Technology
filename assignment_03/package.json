@@ -1,0 +1,26 @@
+{
+  "name": "dmc573-homework03-http-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "dependencies": {
+    "express": "^4.9.5",
+    "fs": "^0.0.2",
+    "http-server": "^0.7.1",
+    "request": "^2.45.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyu-csci-ua-0480-002-fall-2014/dmc573-homework03-http-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-002-fall-2014/dmc573-homework03-http-express/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-002-fall-2014/dmc573-homework03-http-express"
+}
