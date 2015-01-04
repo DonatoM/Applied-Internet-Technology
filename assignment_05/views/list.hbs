@@ -1,0 +1,9 @@
+<H1>{{main_title}}</H1>
+<H2>{{title}}</H2>
+<UL>
+	{{#each list}}
+	<LI>><a href="/list/{{this.slug}}"> {{this.name}}</a></LI>
+	{{/each}}
+</UL>
+<a href="/list">All Lists</a> |
+<a href="/list/create">Create a New List</a>

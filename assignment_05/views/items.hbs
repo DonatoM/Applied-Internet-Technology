@@ -1,0 +1,35 @@
+<H1>Shoppy Shoperson</H1>
+<H2>List Name: {{list_name}}</H2>
+<H3>Created By: {{created_by}}</H3>
+
+	<form method="POST" action="/item/">
+		{{#each list_items}}
+			<ul type="none">
+
+				{{#unless checked}}
+				<li>
+					<input type="checkbox" name="itemCheckbox" value="{{name}}" id="{{slug}}">
+					{{quantity}}  x  {{name}}
+				</li>
+				{{/unless}}
+
+				{{#if checked}}
+					<li><del>{{quantity}}  x  {{name}}</del></li>
+				{{/if}}
+
+				<input type="hidden" name="slug" value="{{slug}}">
+			</ul>
+		{{/each}}
+		<input type="submit" value="Update List">
+		<br></br>
+	</form>
+
+	<form method="POST" action="">
+		<input type="text" name="quantity" class="quantity"> x <input type="text" name="name"><input type="hidden" name="slug" value={{slug}}>
+		<input type="submit" value="Add to List">
+		<br></br>
+	</form>
+
+
+<a href="/">All Lists</a> |
+<a href="/list/create">Create a New List</a>
