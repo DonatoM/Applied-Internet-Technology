@@ -1,0 +1,17 @@
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<head><h1> M&#x25B2;tchico&#x2603;e</h1>
+<div id="game">
+		<div id="startForm">
+			I Want <input type="number" id="numSymbols"> Symbols.
+			<button id='startButton'>Play Now</button>
+		</div>
+</div>
+<script src="javascripts/game.js"></script>
+<script>
+	$('.flip').click(function(){
+    $(this).find('.card').addClass('flipped').mouseleave(function(){
+            $(this).removeClass('flipped');
+        });
+        return true;
+    });

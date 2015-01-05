@@ -1,0 +1,17 @@
+.grid {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.table {
+    display: table;
+    border-spacing: 10px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+}
