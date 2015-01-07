@@ -23,7 +23,7 @@
         </div>
       </form>
       <script language="javascript" type="text/javascript">
-        $("#signup").submit(function(e){
+        $("#feedback").submit(function(e){
           var postData = $(this).serializeArray();
           console.log(JSON.stringify(postData));
           var formURL = $(this).attr("action");
@@ -36,7 +36,7 @@
           });
           e.preventDefault();
         });
-        $("#signup").submit();
+        $("#feedback").submit();
       </script>
     </div>
   </div>
