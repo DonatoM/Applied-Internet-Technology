@@ -67,6 +67,7 @@ Additional Requirements:
 	(4) (1 Point) MVC architecture.
 
 Modules:
+
 	(1) Express: Serves as the web framework for node. Handles webpages and what happens in its routes. Is responsible with what happens whenever you arrive to a certain webpage.
 	(2) Path: Makes path manipulation easier. Could be use to normalize paths and remove any junk in a URL. Can also be used to append to a path. This is  used when you want to create URLS based on the name of a list as an example.
 	(3) Favicon: Simply used for Favicons. It's not a necessity but its a great add on to make the site look a tad better.
