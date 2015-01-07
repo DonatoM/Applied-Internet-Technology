@@ -40,27 +40,26 @@ User: Stores all basic user information required to create an account.
 
 Project Requirements:
 
-(1) Will be using Express and MongoDB.
-(2) 5 Route Handlers:
-	Login
-	Logout
-	Register
-	Create a List
-	Add Task to List.
-	Feedback
-(3) 4 Forms:
-	Creating an account
-	Logging In
-	Creating a List
-	Adding Items to a List
-	Submitting Feedback
-
-(4) Plan to use Bootstrap to style the application.
-
-(5) Using ParsleyJS as an External JS library that validates input on certain pages.
+	(1) Will be using Express and MongoDB.
+	(2) 5 Route Handlers:
+		(a)	Login
+		(b)	Logout
+		(c)	Register
+		(d)	Create a List
+		(e)	Add Task to List.
+		(f)	Feedback
+	(3) 4 Forms:
+		(a)	Creating an account
+		(b)	Logging In
+		(c)	Creating a List
+		(d)	Adding Items to a List
+		(e)	Submitting Feedback
+	(4) Plan to use Bootstrap to style the application.
+	(5) Using ParsleyJS as an External JS library that validates input on certain pages.
 
 
 Additional Requirements:
+
 	(1) (3 Points) Adding user authentication.
 	(2) (2 Points) Client side form validation using a JS library.
 	(3) (2 Points) Using CSS framework throughout my site.
